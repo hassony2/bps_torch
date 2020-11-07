@@ -17,7 +17,7 @@ setup(
     #keywords=['pip','MANO'],
     install_requires=[
           'numpy>=1.16.2',
-          'torch>=1.0.1.post2',
+          # 'torch>=1.0.1.post2', too agressive !
           'torchgeometry>=0.1.2',
       ],
     packages=['bps_torch']
